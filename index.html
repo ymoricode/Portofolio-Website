@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Dimas Rizki - Web Developer" />
+    <meta name="description" content="This is a personal portofolio" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Animasi CSS -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Animasi CSS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preload" as="image" href="./assets/images/hero-foto.jpg" />
+    <title>Portofolio Dimas Rizki</title>
+  </head>
+  <body id="home">
+    <!-- PRELOADER START -->
+    <div class="preloader" data-preloader>
+      <div class="circle"></div>
+    </div>
+    <!-- PRELOADER END -->
+    <main>
+      <article>
+    <!-- HEADER START -->
+    <header class="header" id="headers" data-header>
+      <div class="container">
+        <a href="#home" class="logo">
+          <img
+            src="./assets/images/logo.svg"
+            width="170"
+            height="40"
+            alt="Pfolio home"
+          />
+        </a>
+
+        <button
+          class="nav-toggle-btn"
+          data-nav-toggler
+          data-nav-toggle-btn
+          aria-label="Toggle menu"
+        >
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+        </button>
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link">Home</a>
+            </li>
+            <li>
+              <a href="#services" class="navbar-link">Resume</a>
+            </li>
+            <li>
+              <a href="#skill" class="navbar-link">Services</a>
+            </li>
+            <li>
+              <a href="#portofolios" class="navbar-link">Portofolio</a>
+            </li>
+            <li>
+              <a href="#blogs" class="navbar-link">Blog</a>
+            </li>
+            <li>
+              <a href="#footers" class="navbar-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- HERO SECTION START -->
+    <section class="section hero" id="hero" aria-label="home">
+      <div class="container">
+        <div class="hero-content">
+          <h1 class="hero-title animate__animated animate__fadeInUp animate__delay-1s">Dimas Rizki</h1>
+          <p class="hero-subtitle animate__animated animate__fadeInUp animate__delay-1s">I'm a Web Developer</p>
+          <div class="hero-banner">
+            <img
+              src="./assets/images/hero-foto.jpg"
+              width="800"
+              height="800"
+              alt="dimas"
+              class="w-100 animate__animated animate__fadeInUp animate__delay-1s"
+            />
+          </div>
+          <p class="section-text animate__animated animate__fadeInUp animate__delay-1s">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt est
+            perferendis voluptas tempora, quae omnis modi incidunt rerum eum
+            error, obcaecati earum possimus atque ratione odit similique
+            voluptatum dolore numquam!
+          </p>
+          <a href="#" class="btn has-before animate__animated animate__fadeInUp animate__delay-1s">
+            <span class="span">Download CV</span>
+            <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- HERO SECTION END -->
+
+    <!-- Service START -->
+    <section class="service" id="services" aria-labelledby="service-label">
+      <div class="container">
+        <div class="title wrapper">
+          <div>
+            <p class="section-subtitle animate__animated animate__fadeInUp animate__delay-1s" data-aos="fade-up">
+              Services That I Provide
+            </p>
+            <h2 class="h2 section-title animate__animated animate__fadeInUp animate__delay-1s" id="service-label" data-aos="fade-up">Services</h2>
+          </div>
+          <p class="section-text animate__animated animate__fadeInUp animate__delay-1s" data-aos="fade-up">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat atque similique cum placeat harum consequatur 
+            autem possimus dolores. Inventore ut consequuntur nulla, officiis vel commodi suscipit rem. Iure, nesciunt est?</p>
+        </div>
+
+        <div class="slider" data-slider>
+          <ul class="slider-container service-list animate__animated animate__fadeInUp animate__delay-1s" data-slider-container>
+            <li class="slider-item" data-slider-item>
+              <div class="service-card">
+                <div class="card-icon">
+                  <ion-icon name="desktop-outline" class="animate__animated animate__fadeInUp animate__delay-1s" data-aos="fade-up"></ion-icon>
+                </div>
+                <h3 class="h3 card-title animate__animated animate__fadeInUp animate__delay-1s" data-aos="fade-up">Website Design</h3>
+                <p class="card-text animate__animated animate__fadeInUp animate__delay-1s" data-aos="fade-up">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil alias maiores labore atque praesentium esse explicabo totam, ratione accusantium nostrum ipsa tempora quibusdam laudantium iure iste eos numquam quisquam, consectetur molestiae excepturi magni! Aperiam, facilis.
+                </p>
+                <span class="text-lg card-number animate__animated animate__fadeInUp animate__delay-1s" data-aos="fade-up">01</span>
+                <a href="#" class="layer-link animate__animated animate__fadeInUp animate__delay-1s" aria-label="More about my website design service" data-aos="fade-up"></a>
+              </div>
+            </li>
+            <li class="slider-item" data-slider-item>
+              <div class="service-card">
+                <div class="card-icon">
+                  <ion-icon name="podium-outline" class="animate__animated animate__fadeInUp animate__delay-1s" data-aos="fade-up"></ion-icon>
+                </div>
+                <h3 class="h3 card-title animate__animated animate__fadeInUp animate__delay-1s" data-aos="fade-up">SEO Marketing</h3>
+                <p class="card-text animate__animated animate__fadeInUp animate__delay-1s" data-aos="fade-up">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium deleniti unde natus labore? Consectetur illum sequi eaque recusandae earum officiis accusamus corrupti unde quidem, rerum quod facilis porro eius tenetur ab voluptatibus totam sapiente odit?
+                </p>
+                <span class="text-lg card-number animate__animated animate__fadeInUp animate__delay-1s" data-aos="fade-up">02</span>
+                <a href="#" class="layer-link animate__animated animate__fadeInUp animate__delay-1s" aria-label="More about my SEO Marketing service" data-aos="fade-up"></a>
+              </div>
+            </li>
+            <li class="slider-item" data-slider-item>
+              <div class="service-card">
+                <div class="card-icon">
+                  <ion-icon name="basket-outline" class="animate__animated animate__fadeInUp animate__delay-1s"data-aos="fade-up" ></ion-icon>
+                </div>
+                <h3 class="h3 card-title animate__animated animate__fadeInUp animate__delay-1s" data-aos="fade-up">E-Commerce</h3>
+                <p class="card-text animate__animated animate__fadeInUp animate__delay-1s" data-aos="fade-up">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi error, cum eligendi nulla, iure, labore ipsum dolorum ut asperiores quibusdam qui aliquid soluta accusamus incidunt aliquam rerum eos ad voluptatem veritatis tenetur earum amet? Quaerat!
+                </p>
+                <span class="text-lg card-number animate__animated animate__fadeInUp animate__delay-1s" data-aos="fade-up">03</span>
+                <a href="#" class="layer-link animate__animated animate__fadeInUp animate__delay-1s" aria-label="More about my E-Commerce service" data-aos="fade-up"></a>
+              </div>
+            </li>
+            <li class="slider-item" data-slider-item>
+              <div class="service-card">
+                <div class="card-icon">
+                  <ion-icon name="color-filter-outline"></ion-icon>
+                </div>
+                <h3 class="h3 card-title">Graphic Design</h3>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto laudantium fugiat deserunt magni, aliquam sapiente error cupiditate ratione. Rem, vitae maxime id inventore a fuga ad pariatur molestiae ipsa laborum assumenda incidunt esse. Odio, quas!
+                </p>
+                <span class="text-lg card-number">04</span>
+                <a href="#" class="layer-link" aria-label="More about my Graphic Design service"></a>
+              </div>
+            </li>
+            <li class="slider-item" data-slider-item>
+              <div class="service-card">
+                <div class="card-icon">
+                  <ion-icon name="megaphone-outline"></ion-icon>
+                </div>
+                <h3 class="h3 card-title">Digital Marketing</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id corrupti similique sint libero aspernatur veniam, a possimus dolor assumenda eligendi dicta fuga beatae natus sunt facilis ea labore, veritatis animi, cum odio quaerat? Mollitia, perferendis.
+                </p>
+                <span class="text-lg card-number">05</span>
+                <a href="#" class="layer-link" aria-label="More about my Digital Marketing service"></a>
+              </div>
+            </li>
+            <li class="slider-item" data-slider-item>
+              <div class="service-card">
+                <div class="card-icon">
+                  <ion-icon name="chatbubbles-outline"></ion-icon>
+                </div>
+                <h3 class="h3 card-title">Social Media</h3>
+                <p class="card-text">
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae facilis quibusdam ipsum reprehenderit vitae aliquid alias nulla, error cum sit commodi voluptatibus qui ullam ex esse sapiente optio impedit quidem animi, dolor officia. Quidem, maiores!
+                </p>
+                <span class="text-lg card-number">06</span>
+                <a href="#" class="layer-link" aria-label="More about my Social Media service"></a>
+              </div>
+            </li>
+          </ul>
+          <div class="slider-controls animate__animated animate__fadeInUp animate__delay-1s">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+        </div>
+      </div>
+    </section>
+    <!-- Service END -->
+
+    <!-- SKILLS START -->
+    <section class="section skills" id="skill" aria-label="our skills">
+      <div class="container">
+        <p class="section-subtitle">
+          <h2 class="h2 section-title animate__animated animate__fadeInUp animate__delay-1s" data-aos="fade-up">I Develop & Create Digital Future.</h2>
+          <div class="skills-wrapper">
+            <div>
+              <p class="section-text animate__animated animate__fadeInUp animate__delay-1s" data-aos="fade-up">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et vero, libero unde facilis voluptates illum excepturi sunt hic voluptatibus delectus culpa, laudantium, optio saepe expedita!
+              </p>
+              <p class="section-text animate__animated animate__fadeInUp animate__delay-1s">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus rem numquam, voluptate eius velit tempora dolorum adipisci? Hic accusantium praesentium a dignissimos fuga, aspernatur, deserunt magnam saepe quia iusto quaerat.
+              </p>
+            </div>
+
+            <div>
+              <ul class="skills-list animate__animated animate__fadeInRight animate__delay-1s">
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">HTML</p>
+                    <data class="progress-value" value="90">90%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 90%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">CSS</p>
+                    <data class="progress-value" value="90">90%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 90%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">JavaScript</p>
+                    <data class="progress-value" value="80">80%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 80%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">PHP</p>
+                    <data class="progress-value" value="50">50%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 50%;"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </p>
+      </div>
+    </section>
+    <!-- SKILLS END -->
+
+    <!-- PORTOFOLIO START -->
+    <section class="portofolio" id="portofolios" aria-labelledby="portofolio-label">
+        <div class="title-wrapper container">
+
+        <div>
+        <p class="section-subtitle animate__animated animate__fadeInUp animate__delay-1s" id="portofolio-label">Our Works</p>
+        <h2 class="h2 section-title animate__animated animate__fadeInUp animate__delay-1s">Portofolio</h2>
+        </div>
+        <p class="section-text animate__animated animate__fadeInUp animate__delay-1s">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum voluptatum incidunt aspernatur sint pariatur laudantium dolorum aperiam. Doloremque rem a id ut non quod, consequatur vero suscipit earum laudantium ab? Nemo numquam dolorem tenetur quas id quidem neque laboriosam voluptas.
+        </p>
+        </div>
+
+        <div class="slider" data-slider>
+          <ul class="slider-container" data-slider-container="">
+            <li class="slider-item">
+              <div class="portofolio-card img-holder" style="--width:600 ; --height:600 ;">
+              <img src="assets/images/portfolio-1.jpg" width="600" height="600" loading="lazy" alt="portofolio" class="img-cover animate__animated animate__fadeInUp animate__delay-1s">
+              
+              <div class="card-content">
+                <h3 class="h3 card-title animate__animated animate__fadeInUp animate__delay-1s">Lab. 001</h3>
+                <p class="card-text animate__animated animate__fadeInUp animate__delay-1s">Website Development</p>
+              </div>
+
+              <a href="#" class="layer-link animate__animated animate__fadeInUp animate__delay-1s"></a>
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portofolio-card img-holder" style="--width:600 ; --height:600 ;">
+              <img src="assets/images/portfolio-4.jpg" width="600" height="600" loading="lazy" alt="portofolio" class="img-cover animate__animated animate__fadeInUp animate__delay-1s">
+              
+              <div class="card-content">
+                <h3 class="h3 card-title animate__animated animate__fadeInUp animate__delay-1s">YMovie</h3>
+                <p class="card-text animate__animated animate__fadeInUp animate__delay-1s">Website Development</p>
+              </div>
+
+              <a href="#" class="layer-link"></a>
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portofolio-card img-holder" style="--width:600 ; --height:600 ;">
+              <img src="assets/images/portfolio-2.jpg" width="600" height="600" loading="lazy" alt="portofolio" class="img-cover animate__animated animate__fadeInUp animate__delay-1s">
+              
+              <div class="card-content">
+                <h3 class="h3 card-title animate__animated animate__fadeInUp animate__delay-1s">Aer</h3>
+                <p class="card-text animate__animated animate__fadeInUp animate__delay-1s">Website Development</p>
+              </div>
+
+              <a href="#" class="layer-link"></a>
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portofolio-card img-holder" style="--width:600 ; --height:600 ;">
+              <img src="assets/images/coming.jpg" width="600" height="600" loading="lazy" alt="portofolio" class="img-cover">
+              
+              <div class="card-content">
+                <h3 class="h3 card-title">Admin Dashbord</h3>
+                <p class="card-text">Website Development</p>
+              </div>
+
+              <a href="#" class="layer-link"></a>
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portofolio-card img-holder" style="--width:600 ; --height:600 ;">
+              <img src="assets/images/coming.jpg" width="600" height="600" loading="lazy" alt="portofolio" class="img-cover">
+              
+              <div class="card-content">
+                <h3 class="h3 card-title">Coming Soon</h3>
+                <p class="card-text">Website Development</p>
+              </div>
+
+              <a href="#" class="layer-link"></a>
+              </div>
+            </li>
+          </ul>
+
+          <div class="slider-controls animate__animated animate__fadeInUp animate__delay-1s">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+        </div>
+
+        </div>
+    </section>
+    <!-- PORTOFOLIO END -->
+
+      <!-- BLOG START -->
+    <section class="section blog" id="blogs" aria-labelledby="blog-label">
+      <div class="container">
+        <p class="section-subtitle animate__animated animate__fadeInUp animate__delay-1s" id="blog-label">Recent Articles</p>
+        <h2 class="h2 section-title animate__animated animate__fadeInUp animate__delay-1s">Latest News</h2>
+        <ul class="blog-list">
+
+          <li>
+            <div class="blog-card">
+              <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
+                <img src="assets/images/btc.jpg" width="700" height="470" loading="lazy" alt="Get Started With Tiktok Ads." class="img-cover">
+              </figure>
+
+              <div class="card-content">
+                <time class="time animate__animated animate__fadeInUp animate__delay-1s" datetime="2022-06-24">
+                  <span class="span text-lg ">9</span>
+                  February 2024
+                </time>
+
+                <div>
+                  <h3 class="h3 card-title animate__animated animate__fadeInUp animate__delay-1s">Bitcoin Developer Mailing List Migrates To Google Groups.</h3>
+                  <p class="card-text animate__animated animate__fadeInUp animate__delay-1s">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vel deleniti, ratione numquam et odio!
+                  </p>
+                  <a href="https://bitcoinmagazine.com/markets/bitcoin-developer-mailing-list-migrates-to-google-groups" class="btn has-before animate__animated animate__fadeInUp animate__delay-1s">
+                    <span class="span animate__animated animate__fadeInUp animate__delay-1s">Read More</span>
+                    <ion-icon name="arrow-forward" class="animate__animated animate__fadeInUp animate__delay-1s"></ion-icon>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </li>
+
+          <li>
+            <div class="blog-card">
+              <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
+                <img src="assets/images/btc2.jpg" width="700" height="470" loading="lazy" alt="UX in Ecommerce - 5 things to avoid." class="img-cover">
+              </figure>
+
+              <div class="card-content">
+                <time class="time animate__animated animate__fadeInUp animate__delay-1s" datetime="2022-06-27">
+                  <span class="span text-lg">12</span>
+                  February 2024
+                </time>
+
+                <div>
+                  <h3 class="h3 card-title animate__animated animate__fadeInUp animate__delay-1s">Bitcoin Hits $50,000 For The Time Since 2021.</h3>
+                  <p class="card-text animate__animated animate__fadeInUp animate__delay-1s">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vel deleniti, ratione numquam et odio!
+                  </p>
+                  <a href="https://bitcoinmagazine.com/markets/bitcoin-hits-50000-for-the-first-time-since-2021" class="btn has-before animate__animated animate__fadeInUp animate__delay-1s">
+                    <span class="span animate__animated animate__fadeInUp animate__delay-1s">Read More</span>
+                    <ion-icon name="arrow-forward" class="animate__animated animate__fadeInUp animate__delay-1s"></ion-icon>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+      <!-- BLOG END -->
+
+      <!-- FOOTER START -->
+      <footer class="footer" id="footers">
+        <div class="container">
+          <ul class="footer-list">
+            <li>
+              <p class="h4 footer-list-title animate__animated animate__fadeInUp animate__delay-1s">Get in toch</p>
+            </li>
+            <li>
+              <a href="mailto:dimassrizkii704@gmail.com" class="footer-link animate__animated animate__fadeInUp animate__delay-1s">dimassrizkii704@gmail.com</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list animate__animated animate__fadeInUp animate__delay-1s">
+            <li>
+              <p class="h4 footer-list-title">Locations</p>
+            </li>
+            <li>
+              <a href="#" class="footer-link">Bogor - Cemplang</a>
+            </li>
+          </ul>
+
+          <ul class="social-list animate__animated animate__fadeInUp animate__delay-1s">
+
+            <li>
+              <a href="https://www.instagram.com/dimassrzkiii/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/ymoricode" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/dimas-rizki-dwi-saputra/" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </footer>
+
+      <!-- FOOTER END -->
+ </article>
+ </main>
+
+    <!-- script JS -->
+    <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
